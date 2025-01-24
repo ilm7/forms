@@ -1,0 +1,65 @@
+.first_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    width: 450px;
+}
+
+.content h2 {
+    text-align: center;
+    background: #FF5733;
+    padding: 8px 0;
+    color: white;
+    font-size: 25px;
+}
+
+.first_form .content form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+
+.first_form .content form .form_group {
+    padding-bottom: 10px;
+}
+
+.first_form .content form label {
+    color: #333CFF;
+    margin-right: 3px;
+    font-size: 16px;
+}
+
+.first_form .content form input {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.2px;
+    padding-left: 12px;
+}
+
+.form_group:last-of-type {
+    display: flex;
+}
+
+.form_group .hobbies {
+    width: 250px;
+}
+
+.form_group .hobbies input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+.submit_buttons {
+    display: flex;
+
+}
+
+.submit_buttons input[type="submit"] {
+    background: #ADACAD;
+    padding: 6px 5px;
+    margin-right: 10px;
+}
+

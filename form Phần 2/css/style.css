@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background: #FFFDB2;
+    padding: 10px;
+}
+
+.content h2 {
+    padding: 4px;
+    background: #DCFBD9;
+    font-size: 27px;
+    margin-bottom: 15px;
+    width: 450px;
+    color: #1432F5;
+}
+
+.content label {
+    padding-right: 12px;
+}
+
+.form_group {
+    padding-bottom: 10px;
+}
+
+input[type="message"] {
+    padding-bottom: 40px;
+}
+
+input[type="submit"] {
+    background: #DBD9D2;
+    font-size: 15px;
+}
