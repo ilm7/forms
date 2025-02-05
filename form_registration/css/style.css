@@ -1,0 +1,43 @@
+.wrapper {
+    background: #C5E9FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration_form {
+    background: white;
+    width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.registration_form h1 {
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.form_group {
+    padding-bottom: 10px;
+}
+
+.form_group label {
+    padding-right: 8px;
+}
+
+.form_group input {
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.submit input {
+    padding: 10px 20px;
+    border-style: none;
+    background: #489EE3;
+    color: #CBFBFE;
+    border-radius: 10px;
+}
