@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h2>Market Research Survey</h2>
+            <p>Please take a few moments to complete this satisfaction survey.</p>
+            <form action="#">
+                <div class="form_group">
+                    <label for="age_range">What is your age range?</label>
+                    <select name="ageRange" id="age_range">
+                        <option value="ages">18-24</option>
+                    </select>
+                </div>
+                <div class="form_group">
+                    <label for="income_range">What is your yearly income range?</label>
+                    <select name="incomeRange" id="income_range">
+                        <option value="incomes">$0 - $25,000</option>
+                    </select>
+                </div>
+                <div class="form_group">
+                    <label>Gender</label>
+                    <input type="radio" id="male" name="gender" value="Male">Male
+                    <input type="radio" id="female" name="gender" value="Female">Female
+                </div>
+                <div class="form_group">
+                    <label>Which of the following products have your purchased in the last 2 months. Please check all that apply.</label>
+                    <div class="value_product">
+                        <input type="checkbox" id="product_1" name="products" value="Product 1">Product 1
+                    </div>
+                    <div class="value_product">
+                        <input type="checkbox" id="product_2" name="products" value="Product 2">Product 2
+                    </div>
+                    <div class="value_product">
+                        <input type="checkbox" id="product_3" name="products" value="Product 3">Product 3
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label>How often would you use our new product?</label>
+                    <input type="radio" id="daily" name="howOften" value="Daily">Daily
+                    <input type="radio" id="weekly" name="howOften" value="Weekly">Weekly
+                    <input type="radio" id="moonthly" name="howOften" value="Monthly">Monthly
+                </div>
+                <div class="form_group">
+                    <label>What would you pay for the new product?</label>
+                    <div class="currency_inputs">
+                        <div class="input_dollars">
+                            <label for="dollars">$</label>
+                            <input type="text" id="dollars" name="currency">
+                        </div>
+                        <div class="input_cents">
+                            <label for="cents">.</label>
+                            <input type="text" id="cents" name="currency">
+                        </div>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label>What features would you like to see in the new product.</label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+                <div class="form_group">
+                    <label>Please rate your level of agreement with the following statements.</label>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Strongly Disagree</th>
+                            <th>Disagree</th>
+                            <th>Agree</th>
+                            <th>Strongly Agree</th>
+                        </tr>
+                        <tr>
+                            <td>Our products are priced fairly.</td>
+                            <td><input type="radio" name="price" value="1"></td>
+                            <td><input type="radio" name="price" value="2"></td>
+                            <td><input type="radio" name="price" value="3"></td>
+                            <td><input type="radio" name="price" value="4"></td>
+                        </tr>
+                        <tr style="background: #f4f4f4;">
+                            <td>Our products are high quality.</td>
+                            <td><input type="radio" name="quality" value="1"></td>
+                            <td><input type="radio" name="quality" value="2"></td>
+                            <td><input type="radio" name="quality" value="3"></td>
+                            <td><input type="radio" name="quality" value="4"></td>
+                        </tr>
+                        <tr>
+                            <td>You would recommend our product to a friend or coworker.</td>
+                            <td><input type="radio" name="recommend" value="1"></td>
+                            <td><input type="radio" name="recommend" value="2"></td>
+                            <td><input type="radio" name="recommend" value="3"></td>
+                            <td><input type="radio" name="recommend" value="4"></td>
+                        </tr>
+                    </table>                
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
